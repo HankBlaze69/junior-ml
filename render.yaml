@@ -1,9 +1,9 @@
 services:
   # A Docker web service
   - type: web
-    name: Luna
+    name: TechHell
     env: docker
-    region: Singapore
+    region: ohio
     plan: free
     envVars:
       - key: BOT_TOKEN
